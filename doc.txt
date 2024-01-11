@@ -10,13 +10,19 @@
 //
 //
 //===============- Note -==============
-
+#
+#
+#
+#
 * Step_1 - Working Dir to Staging Area
 *
 * Step_2 - Staging Area to Local Repository
-
+*
 * Step_3 - Finally Local Repository to Remote or Github
 
+#
+#
+#
 * কোন প্রজেক্টকে যদি আমরা Working Dir থেকে Staging Area তুলতে চাই তাহলে আমাদের একটি কমান্ড লিখতে হয় তা হলো: git add .
 
 * আবার যদি আমর সেই প্রজেক্টকে  Staging Area থেকে Local Repository তে তুলতে চাই তাহলে আমাদের একটি কমান্ড লিখতে হয় তা হলো: git commit -m "message"
