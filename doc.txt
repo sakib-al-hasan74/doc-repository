@@ -83,6 +83,8 @@
 // 
 // আমাদের প্রজেক্টকে যদি আমরা Local Repository থেকে Remote or Github আপলোড করতে চাই। তাহলে আমাদের একটি কানেকশন তৈরি করতে হবে। সেটি করার জন্য আমাদের একটি কমান্ড লিখতে হবে। তা হলো: git remote add origin "Remote_URL"
 
+// Step_1
+
 For Ex: git remote add origin https//github.com/sakib-al-hasan74/first-repo.git
 
 # এখন আমরা যে কানেকশন তৈরি করছি এটা আমরা কিভাবে বুঝব যে এটা কানেক্ট হয়েছে কি হয়নি ? এটা দেখার জন্য আমাদের দুইটা কমান্ড আছে। 
@@ -90,8 +92,13 @@ For Ex: git remote add origin https//github.com/sakib-al-hasan74/first-repo.git
 1. git remote
 2. git remote -v
 
-## git branch -M main
-## git push -u origin main   এই দুইটা এখনো বাকি আছে 
+// Step_2
+
+// প্রথম স্টেপে কানেকশন তৈরি হয়ে গেলে আমরা দ্বিতীয় স্টেপে ব্রাঞ্চ ঠিক করে দেবো এবং ফাইনালি আমরা আমাদের প্রজেক্টকে গিটহাবে push করব। git push -u origin main এই কমান্ড দিয়ে।
+
+// এটা শুধু নতুন কোন প্রজেক্ট এর ক্ষেত্রে এই স্টেপ গুলো ফলো করতে হবে তবে যদি আমাদের কোন প্রজেক্ট গিটহাবে থাকে এবং সেই প্রজেক্টকে আমরা যদি কাস্টমাইজ করে আবার গিটহাবে পুশ করতে চাই তাহলে শুধুমাত্র git push এ কমান্ড দিলেই হবে তখন আর নিচের এ কমান্ড গুলো প্রয়োজন পড়বে না
+## git branch -M main 
+## git push -u origin main  
 
 //
 // ========================------- git clone "Remote_URL" ---------============
