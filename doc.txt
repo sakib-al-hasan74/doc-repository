@@ -90,6 +90,9 @@ For Ex: git remote add origin https//github.com/sakib-al-hasan74/first-repo.git
 1. git remote
 2. git remote -v
 
+## git branch -M main
+## git push -u origin main   এই দুইটা এখনো বাকি আছে 
+
 //
 // ========================------- git clone "Remote_URL" ---------============
 //
